@@ -1,7 +1,7 @@
 # Event Ride
 Ionic app for Destrua.me project
 
-## Instalação
+## Instalation
 
 ```
 npm install -g cordova ionic
@@ -9,7 +9,7 @@ git clone https://github.com/Thithi32/eventride_app
 ionic serve
 ```
 
-### Para Android
+### For Android
 
 ```
 ionic add plateform android
@@ -17,7 +17,7 @@ ionic build android
 ionic emulate android
 ```
 
-### Para IOS
+### For IOS
 
 ```
 ionic add plateform ios
