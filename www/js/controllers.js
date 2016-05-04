@@ -32,11 +32,11 @@ angular.module('app.controllers', ['app.factories'])
       }, 1000);
     };
   })
-  .controller('ChallengesCtrl', function($scope, Challenges) {
-    // Factory Challenges
-    $scope.challenges = Challenges
+  .controller('EventsCtrl', function($scope, Events) {
+    // Factory Events
+    $scope.events = Events
   })
-  .controller('SuggestCtrl', function($scope, Challenges, $state) {
+  .controller('SuggestCtrl', function($scope, Events, $state) {
 
     $scope.suggest = {
       name: '',
@@ -50,13 +50,13 @@ angular.module('app.controllers', ['app.factories'])
         return alert('Nome e Descrição são obrigatórios.')
       }
 
-      Challenges.$add({
+      Events.$add({
           name: $scope.suggest.name,
           description : $scope.suggest.description,
         })
         .then(
           function(ref) {
-            $state.go('app.challenges')
+            $state.go('app.events')
           },
           function(err) {
             throw err
