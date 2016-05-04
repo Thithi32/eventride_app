@@ -46,16 +46,16 @@ angular.module('app', [
           }
         }
       })
-      .state('app.challenges', {
-        url: '/challenges',
+      .state('app.events', {
+        url: '/events',
         views: {
           'menuContent': {
-            templateUrl: 'templates/challenges.html',
-            controller: 'ChallengesCtrl'
+            templateUrl: 'templates/events.html',
+            controller: 'EventsCtrl'
           }
         }
       })
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/challenges')
+    $urlRouterProvider.otherwise('/app/events')
   })
