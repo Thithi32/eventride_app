@@ -1,0 +1,10 @@
+<ion-view view-title="Eventos">
+  <ion-content>
+    <ion-list>
+        <ion-item ng-repeat="event in events track by $index">
+        	<strong>{{ event.name }}</strong><br/>
+        	<p>{{ event.description }}</p>
+        </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
