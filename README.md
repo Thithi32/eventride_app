@@ -1,14 +1,14 @@
 [![Stories in Ready](https://badge.waffle.io/CodeForCuritiba/destruame_app.png?label=ready&title=To%20Do)](https://waffle.io/CodeForCuritiba/destruame_app)
 [![Stories in Ready](https://badge.waffle.io/CodeForCuritiba/destruame_app.png?label=in%20progress&title=In%20Progress)](https://waffle.io/CodeForCuritiba/destruame_app)
 
-# destruame_app
+# Event Ride
 Ionic app for Destrua.me project
 
 # Instalação
 
 ```
 npm install -g cordova ionic
-git clone https://github.com/CodeForCuritiba/destruame_app
+git clone https://github.com/Thithi32/eventride_app
 ionic serve
 ```
 
@@ -28,13 +28,7 @@ ionic build ios
 ionic emulate ios
 ```
 
-# Colaboradores
+# Credits
 
- - Victor Barroso
- - Thalita Cantos
- - Daniel Dipp
- - Danielli C Wal
- - Mayara C Wal
- - Thierry Delbart
- - Neri Junior
- - Gustavo Guerchon
+Forked from: https://github.com/CodeForCuritiba/destruame_app
+
