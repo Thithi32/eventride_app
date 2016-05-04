@@ -1,5 +1,5 @@
 # Event Ride
-Ionic app for Destrua.me project
+Ionic app for Event Ride project
 
 ## Instalation
 
